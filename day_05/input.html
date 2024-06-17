@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel=""stylesheet" href="C:\Users\admin\Documents\GitHub\2406-WEB2\reset.css">
+    <style>
+        .input-box{
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="input-box">
+            <h3>hext</h3>
+            <input type="text">
+        </div>
+
+        <div class="input-box">
+            <h3>password</h3>
+            <input type="password" name="" id="">
+        </div>
+        
+        <div class="input-box">
+            <h3>checkbox</h3>
+            <input type="checkbox" checked name="체크됐니" id="">
+            <!-- display :none 처리된 체크박스도  정상적으로 전달된다. -->
+            <input type="checkbox" name="숨겨진녀석" checked class="hide-chkbox" style="display: none">
+        </div>
+
+        <div class="input-box">
+            <h3>radio</h3>
+            <input type="radio" name="test" id="real-yes-radio" value="real-yes">
+                <label for="real-yes-radio">
+                    매우그렇다
+                </label>
+            <input type="radio" name="test" id="real-yes-radio" value="yes"> 
+                <label for="real-yes-radio">
+                    그렇다
+                </label>
+            <input type="radio" name="test" id="real-yes-radio" value="no">
+                <label for="real-yes-radio">
+                    그렇다
+                </label>
+            <input type="radio" name="test" id="" value="real-no">
+                <label for="real-yes-radio">
+                    매우아니다
+                </label>
+        </div>
+    </form>
+</body>
+</html>
