@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 500px;
+            height: 300px;
+            margin: 0 auto;
+            position: relative;
+            border: 1px solid black;
+        }
+
+        .box {
+            width: 40px;
+            height: 40px;
+            background-color: grey;   
+            /* position: absolute;
+            left: 0px;         */
+
+            left: calc(100% + 16px);
+
+            /* 서로 다른 값을 계산해줌 */
+        }
+
+        .for-center{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            position: absolute;
+            left: 50%;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="for-center"></div>
+    </div>
+</body>
+</html>
